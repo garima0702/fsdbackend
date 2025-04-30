@@ -8,14 +8,14 @@ const Register = () => {
             name:e.target.name.value,
             age:e.target.age.value
         }
-        await axios.post("https://fsd-backend-reqs.onrender.com/users",user)
+        await axios.post("https://fsdbackend-fzgp.onrender.com/users",user)
         alert("User registered successfully!!")
     }
   return (
     <div>
       <h1>Register User</h1>
       <form onSubmit={handleRegister}>
-        <label>Name: </label><input type="text" name="name"/>
+        <label>Name:</label><input type="text" name="name"/>
         <label>Age: </label><input type="text" name="age"/>
         <button type='submit'>Register</button>
       </form>

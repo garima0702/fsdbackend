@@ -7,11 +7,15 @@ import './App.css'
 const App = () => {
   return (
     <div className="app-container">
-      <h1>User Registration System</h1>
+      <h1>USER REGISTRATION SYSTEM</h1>
       <Register/>
+      <hr></hr>
       <Update/>
+      <hr></hr>
       <Delete/>
+      <hr></hr>
       <View/>
+
     </div>
   )
 }

@@ -3,7 +3,7 @@
 
 /* Title */
 h1 {
-    color: #d63031;
+    color: #99aabb;
     font-size: 22px;
     margin-bottom: 15px;
 }
@@ -18,23 +18,31 @@ form {
 /* Input Field */
 input {
     padding: 10px;
-    border: 1px solid #ff4d4d;
+    border: 1px solid #0b0909;
     border-radius: 5px;
     font-size: 14px;
+    width: 200px;
+    display: block;
+    margin: auto;
 }
 
 /* Delete Button */
 button {
-    background-color: #ff4d4d;
-    color: white;
+    background-color: #333;      /* Dark grey background */
+    color: white;                /* White text */
     border: none;
     padding: 10px;
     font-size: 16px;
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
+    display: block;
+    margin: auto;
+    width: 100px;
+    margin-bottom: 50px;
 }
 
 button:hover {
-    background-color: #e60000;
+    background-color: #000;      /* Black on hover */
 }
+
