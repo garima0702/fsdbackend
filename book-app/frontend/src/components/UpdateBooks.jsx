@@ -18,7 +18,7 @@ const UpdateBook = () => {
 
   const fetchBooks = async () => {
     try {
-      const res = await axios.get('https://fsdbackend-4-3q86.onrender.com/books');
+      const res = await axios.get('https://fsdbackend-3-8zia.onrender.com/books');
       setBooks(res.data);
     } catch (error) {
       console.error(error);
@@ -49,7 +49,7 @@ const UpdateBook = () => {
   const handleUpdate = async (e) => {
     e.preventDefault();
     try {
-      await axios.put(`'https://fsdbackend-4-3q86.onrender.com/books'/${selectedBookId}`, formData);
+      await axios.put(`'https://fsdbackend-3-8zia.onrender.com/books'/${selectedBookId}`, formData);
       alert('Book updated successfully');
       fetchBooks();
     } catch (error) {

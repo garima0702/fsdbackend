@@ -8,7 +8,7 @@ const AddBook = () => {
         const date=e.target.date.value;
         const image=e.target.image.value;
         const books={title,author,date,image}
-        await axios.post('https://fsdbackend-4-3q86.onrender.com/books',books);
+        await axios.post('https://fsdbackend-3-8zia.onrender.com/books',books);
         alert('Book Added Successfully')
     }
     return (
